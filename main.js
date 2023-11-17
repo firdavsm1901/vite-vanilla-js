@@ -21,7 +21,6 @@ document.querySelector('#submit-button').addEventListener('click', function () {
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
 
-
         const taskSpan = document.createElement('span');
         taskSpan.textContent = taskText;
 

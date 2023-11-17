@@ -9,11 +9,11 @@ export default defineConfig({
         less: {
           math: 'parens-division',
         },
-        styl: {
-          define: {
-            $specialColor: new stylus.nodes.RGBA(51, 197, 255, 1),
-          },
-        },
+        // styl: {
+        //   define: {
+        //     $specialColor: new stylus.nodes.RGBA(51, 197, 255, 1),
+        //   },
+        // },
       },
     },
   })
