@@ -11,7 +11,7 @@ npm install
 ```
 
 ## Step 2: Creating a Simple To-Do List
-I developed a basic to-do list application, allowing users to add tasks to a list and mark them as completed.
+I developed a basic to-do list application, allowing users to add tasks to a list.
 
 ## Step 3: Custom Configuration with config.vite.js
 To customize the Vite configuration, I created a ```config.vite.js``` file at the root of the project:
