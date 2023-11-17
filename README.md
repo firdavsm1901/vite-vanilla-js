@@ -39,3 +39,11 @@ To prepare the application for deployment, I ran the build command:
 ```bash
 npm run build
 ```
+
+## Step 5: Deployment to Netlify
+The built dist directory was deployed to Netlify for hosting:
+
+Logged in to Netlify: Accessed the Netlify dashboard and logged in.
+Created a New Site: Set up a new site and connected it to the Git repository.
+Configured Build Settings: Specified the build command as npm run build and set the output directory as dist.
+Deployment: Initiated the deployment process, and the to-do list application went live at Netlify App Link.
