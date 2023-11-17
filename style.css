@@ -105,10 +105,6 @@ ul > li {
   list-style: none;
   text-align: start;
 }
-
-/* style.css */
-
-/* Body styles */
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -116,7 +112,6 @@ body {
   padding: 0;
 }
 
-/* To-Do List Container */
 #app {
   max-width: 600px;
   margin: 20px auto;
@@ -126,13 +121,11 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Heading */
 h1 {
   text-align: center;
   color: #333;
 }
 
-/* Input and Button */
 input[type="text"] {
   width: 70%;
   padding: 8px;
@@ -154,17 +147,13 @@ input[type="text"] {
   background-color: #45a049;
 }
 
-/* Task List */
 ul {
   list-style-type: none;
   padding: 0;
 }
 
-li {
-  margin-bottom: 5px;
-}
 
-/* Style for tasks */
+
 li {
   margin-bottom: 10px;
   padding: 10px;
@@ -197,3 +186,29 @@ li:hover {
 .delete-button:hover {
   background-color: #d32f2f;
 }
+
+.checkbox {
+  margin-right: 10px; 
+}
+
+
+
+li {
+
+  display: flex;
+  align-items: center; 
+}
+
+.task-text {
+  flex-grow: 1;
+  margin-right: 10px;
+  transition: text-decoration 0.3s ease; 
+}
+
+
+.completed {
+  text-decoration: line-through;
+  opacity: 1; 
+}
+
+
